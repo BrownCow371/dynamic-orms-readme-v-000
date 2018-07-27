@@ -11,8 +11,8 @@ puts "song album: " + song.album
 song.save
 
 DB[:conn].execute("SELECT * FROM songs")
-require "pry"
-Pry.start
+#require "pry"
+#Pry.start
 
 require "irb"
 IRB.start
